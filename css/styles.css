@@ -68,7 +68,7 @@ h1, h2, h3, h4, p {
 .about-user-description {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 400px;
+    width: 600px;
 
     font-weight: 400;
     font-size: 14px;
@@ -100,7 +100,7 @@ h1, h2, h3, h4, p {
 .projects-about {
     margin-top: 12px;
     /* margin-left: 12px; */
-
+    width: 600px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, p {
 }
 .work-list {
     color: #595959;
-    width: 509px;
+    width: 600px;
     padding: 0;
     margin-left: 16px;
 }
