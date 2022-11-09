@@ -84,15 +84,28 @@ h1, h2, h3, h4, p {
 }
 .projects-item {
     margin-top: 12px;
+    font-weight: 700;
     font-size: 14px;
 }
 .projects-link {
-    font-weight: 400;
+    font-size: 16px;
     color: var(--text-color);
 }
+
 .vector {
     margin-left: 16px;
     color:  #A8A8A8;
+    font-weight: 400;
+}
+.projects-about {
+    margin-top: 12px;
+    /* margin-left: 12px; */
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: var(--text-color);
 }
 .work {
     margin-top: 32px;
@@ -100,6 +113,8 @@ h1, h2, h3, h4, p {
 .work-title {
     margin-top: 12px;
     margin-bottom: 12px;
+
+    color: var(--accent2-color);
 
     font-weight: 700;
     font-size: 16px;
@@ -145,9 +160,9 @@ h1, h2, h3, h4, p {
     margin-top: 12px;
     margin-bottom: 12px;
 }
-.education__faculty {
+.education__faculty, .work-position {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 12px;
 }
 
