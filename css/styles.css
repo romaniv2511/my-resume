@@ -172,7 +172,7 @@ h1, h2, h3, h4, p {
 .sidebar {
     background-color: #6b9999;
     color: #FFFFFF;
-    padding-top: 88px;
+    padding-top: 40px;
     width: 370px;
 }
 .photo {
@@ -187,6 +187,12 @@ h1, h2, h3, h4, p {
     margin-bottom: 8px;
     
 }
+
+.photo {
+    /* max-width: 100%; */
+    object-fit: contain;
+}
+
 .contacts, .tech-skills, .soft-skills {
     margin-left: 40px;
     
@@ -231,11 +237,15 @@ h1, h2, h3, h4, p {
     margin-top: 16px;
     margin-left: 0;
 }
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
 .contacts-link {
     text-decoration: none;
 }
 
 .contacts-icon {
-    margin-right: 4px;
+    margin-right: 8px;
     fill: var(--bg-color);
 }
