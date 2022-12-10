@@ -1,251 +1,251 @@
 :root {
-    --title-color: #000000;
-    --text-color: #595959;
+  --title-color: #000000;
+  --text-color: #595959;
 
-    --accent1-color: #6b9999;
-    --accent2-color: #FB6D3A;
-    --bg-color: #FFFFFF;
-    --secondary-bg-color: #ebc9bb;
+  --accent1-color: #6b9999;
+  --accent2-color: #fb6d3a;
+  --bg-color: #ffffff;
+  --secondary-bg-color: #ebc9bb;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-h1, h2, h3, h4, p {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
 }
 .list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
 
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1080px;
-
-    background: linear-gradient(to bottom,
-                                var(--bg-color) 0px,
-                                var(--bg-color) 40px,
-                                var(--secondary-bg-color) 40px,
-                                var(--secondary-bg-color) 220px,
-                                var(--bg-color) 220px
-                                );
-
+  background: linear-gradient(
+    to bottom,
+    var(--bg-color) 0px,
+    var(--bg-color) 40px,
+    var(--secondary-bg-color) 40px,
+    var(--secondary-bg-color) 220px,
+    var(--bg-color) 220px
+  );
 }
 
 /* main content */
 .main-content {
-    margin-top: 102px;
-    margin-left: 88px;
+  margin-top: 102px;
+  margin-left: 88px;
 
-    line-height: 1.2;
+  line-height: 1.2;
 
-    background-color: transparent;
-    color: var(--title-color);
+  background-color: transparent;
+  color: var(--title-color);
 }
 .about-job {
-    font-weight: 700;
-    font-size: 14px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 .name {
-    margin-top: 20px;
-    font-weight: 700;
-    font-size: 45px;
+  font-weight: 700;
+  font-size: 45px;
 }
 .about-user-description {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 600px;
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
 
-    color: var(--text-color);
+  color: var(--text-color);
 }
 .title-main {
-    font-size: 22px;
+  font-size: 22px;
 }
 .projects-list {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 .projects-item {
-    margin-top: 12px;
-    font-weight: 700;
-    font-size: 14px;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 14px;
 }
 .projects-link {
-    font-size: 16px;
-    color: var(--text-color);
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .vector {
-    margin-left: 16px;
-    color:  #A8A8A8;
-    font-weight: 400;
+  margin-left: 16px;
+  color: #a8a8a8;
+  font-weight: 400;
 }
 .projects-about {
-    margin-top: 12px;
-    /* margin-left: 12px; */
-    width: 600px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
+  margin-top: 12px;
+  /* margin-left: 12px; */
+  width: 600px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
 
-    color: var(--text-color);
+  color: var(--text-color);
 }
 .work {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 .work-title {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 
-    color: var(--accent2-color);
+  color: var(--accent2-color);
 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 .time {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
 }
 .work-list {
-    color: #595959;
-    width: 600px;
-    padding: 0;
-    margin-left: 16px;
+  color: #595959;
+  width: 600px;
+  padding: 0;
+  margin-left: 16px;
 }
 .work-item {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
 }
 .work-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .education {
-    margin-top: 44px;
-    margin-bottom: 44px;
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
 .colortext {
-    color: var(--accent2-color);
+  color: var(--accent2-color);
 }
 .education__item {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 .education__title {
-    font-size: 16px;
-    color: var(--accent2-color);
-    margin-top: 12px;
-    margin-bottom: 12px;
+  font-size: 16px;
+  color: var(--accent2-color);
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
-.education__faculty, .work-position {
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 12px;
+.education__faculty,
+.work-position {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
-
-
 
 /* sidebar syles */
 .sidebar {
-    background-color: #6b9999;
-    color: #FFFFFF;
-    padding-top: 40px;
-    width: 370px;
+  background-color: #6b9999;
+  color: #ffffff;
+  padding-top: 40px;
+  width: 370px;
 }
 .photo {
-    width: 370px;
-    height: 354px;
-    margin-bottom: 52px;
+  width: 370px;
+  height: 354px;
+  margin-bottom: 52px;
 }
 .sidebar-title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    margin-bottom: 8px;
-    
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
 }
 
 .photo {
-    /* max-width: 100%; */
-    object-fit: contain;
+  /* max-width: 100%; */
+  object-fit: contain;
 }
 
-.contacts, .tech-skills, .soft-skills {
-    margin-left: 40px;
-    
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 40px;
 }
 .contacts {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 .contact-type {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    margin-right: 4px;
-    
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 4px;
 }
 .contact-link {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    opacity: 0.5;
-    padding: auto;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.5;
+  padding: auto;
 }
 .tech-skills {
-    margin-bottom: 44px;
+  margin-bottom: 44px;
 }
 .sidebar-list {
-    padding: 0;
-    margin-left: 16px;
+  padding: 0;
+  margin-left: 16px;
 }
 .sidebar-text {
-    color: var(--bg-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+  color: var(--bg-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .sidebar-item {
-    color: var(--accent2-color);
+  color: var(--accent2-color);
 }
 
 .contacts-list {
-    margin-top: 16px;
-    margin-left: 0;
+  margin-top: 16px;
+  margin-left: 0;
 }
 .contacts-item {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .contacts-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contacts-icon {
-    margin-right: 8px;
-    fill: var(--bg-color);
+  margin-right: 8px;
+  fill: var(--bg-color);
 }
