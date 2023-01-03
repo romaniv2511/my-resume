@@ -10,6 +10,7 @@
 
 html,
 body {
+  margin: 0;
   height: 100%;
   width: 100%;
 }
@@ -51,10 +52,7 @@ p {
 
 /* main content */
 .main-content {
-  padding: 96px 80px 0 80px;
-  /* margin-top: 102px;
-  margin-left: 88px; */
-
+  padding: 96px 72px 0 72px;
   line-height: 1.2;
 
   background-color: transparent;
@@ -71,8 +69,6 @@ p {
 }
 .about-user-description {
   margin-top: 40px;
-  /* margin-bottom: 40px; */
-  width: 600px;
 
   font-weight: 400;
   font-size: 14px;
@@ -106,8 +102,7 @@ p {
 }
 .projects-about {
   margin-top: 12px;
-  /* margin-left: 12px; */
-  width: 600px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
@@ -139,7 +134,7 @@ p {
 }
 .work-list {
   color: #595959;
-  width: 600px;
+
   padding: 0;
   margin-left: 16px;
 }
