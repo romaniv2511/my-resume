@@ -51,8 +51,9 @@ p {
 
 /* main content */
 .main-content {
-  margin-top: 102px;
-  margin-left: 88px;
+  padding: 96px 80px 0 80px;
+  /* margin-top: 102px;
+  margin-left: 88px; */
 
   line-height: 1.2;
 
