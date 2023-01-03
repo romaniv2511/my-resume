@@ -1,6 +1,6 @@
 :root {
   --title-color: #000000;
-  --text-color: #595959;
+  --text-color: #3a3a3a;
 
   --accent1-color: #6b9999;
   --accent2-color: #fb6d3a;
@@ -70,7 +70,7 @@ p {
 }
 .about-user-description {
   margin-top: 40px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   width: 600px;
 
   font-weight: 400;
@@ -79,11 +79,14 @@ p {
 
   color: var(--text-color);
 }
+.projects {
+  margin-top: 40px;
+}
 .title-main {
   font-size: 22px;
 }
 .projects-list {
-  margin-top: 32px;
+  margin-top: 28px;
 }
 .projects-item {
   margin-top: 12px;
@@ -110,8 +113,11 @@ p {
 
   color: var(--text-color);
 }
+.work-section {
+  margin-top: 40px;
+}
 .work {
-  margin-top: 32px;
+  margin-top: 28px;
 }
 .work-title {
   margin-top: 12px;
@@ -147,14 +153,14 @@ p {
   line-height: 24px;
 }
 .education {
-  margin-top: 44px;
-  margin-bottom: 44px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .colortext {
   color: var(--accent2-color);
 }
 .education__item {
-  margin-top: 32px;
+  margin-top: 28px;
 }
 .education__title {
   font-size: 16px;
